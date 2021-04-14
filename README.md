@@ -1,4 +1,4 @@
-# 2018 ZIP code to 2019 CBSA
+# 2019(2010) ZIP code to 2018 CBSA
 
 This is a mapping of United States Postal Service (USPS) ZIP codes to Core-Based Statistical Areas defined by the Office of Management and Budget. While there are clear limitations to the correctness of the approach used here, it should get you 99% of the way. See also: [https://www.huduser.gov/portal/datasets/usps_crosswalk.html](https://www.huduser.gov/portal/datasets/usps_crosswalk.html).
 
