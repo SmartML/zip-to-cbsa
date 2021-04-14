@@ -1,6 +1,6 @@
-# 2019(2010) ZIP code to 2018 CBSA
+# ZIP code to CBSA
 
-This is a mapping of United States Postal Service (USPS) ZIP codes to Core-Based Statistical Areas defined by the Office of Management and Budget. While there are clear limitations to the correctness of the approach used here, it should get you 99% of the way. See also: [https://www.huduser.gov/portal/datasets/usps_crosswalk.html](https://www.huduser.gov/portal/datasets/usps_crosswalk.html).
+This is a mapping of United States Postal Service (USPS) ZIP codes to Core-Based Statistical Areas defined by the Office of Management and Budget. We are using the shapefiles for [year 2018 Core Based Statistical Areas](https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html) and [year 2019 ZIP Code Tabulation Areas following the 2010 Census](https://catalog.data.gov/dataset/tiger-line-shapefile-2019-2010-nation-u-s-2010-census-5-digit-zip-code-tabulation-area-zcta5-na), and do a geospatial join. While there are clear limitations to the correctness of this approach, e.g. ZIP codes change, it should get you 99% of the way. See also: [https://www.huduser.gov/portal/datasets/usps_crosswalk.html](https://www.huduser.gov/portal/datasets/usps_crosswalk.html).
 
 ## Creating the .xlsx/.csv File
 
