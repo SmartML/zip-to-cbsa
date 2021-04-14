@@ -7,9 +7,9 @@ This is a mapping of United States Postal Service (USPS) ZIP codes to Core-Based
 The following assumes you are using `conda` as your Python package manager. Open a terminal, navigate to this repository, and: 
 
 ```
-conda env create -n cbsa python=3.8 openpyxl requests geopandas tqdm -y
+conda create -n cbsa python=3.8 openpyxl requests geopandas tqdm -y
 conda activate cbsa
 python zip_to_cbsa.py
 ```
 
-Those steps will download the data needed from census.gov to './data', and create the files `US_ZIP_CBSA.xlsx`/`US_ZIP_CBSA.csv`.
+Those steps will create and activate the environment, download and unpack the data needed from census.gov to './data', and create the files `US_ZIP_CBSA.xlsx`/`US_ZIP_CBSA.csv`.
